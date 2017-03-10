@@ -1,0 +1,73 @@
+﻿namespace CLASSES
+{
+    public class CL_Tribut
+    {
+        public int tri_histc { get; set; }
+        public string tri_rcsl { get; set; }
+        public string tri_rpis { get; set; }
+        public double tri_prcof { get; set; }
+        public double tri_prpis { get; set; }
+        public double tri_prcsl { get; set; }
+        public double tri_perirr { get; set; }
+        public int tri_cod { get; set; }
+        public string tri_nome { get; set; }
+        public string tri_cfisc { get; set; }
+        public string tri_cfouf { get; set; }
+        public double tri_ctbil { get; set; }
+        public double tri_base { get; set; }
+        public double tri_aliq { get; set; }
+        public double tri_isent { get; set; }
+        public double tri_outra { get; set; }
+        public double tri_basei { get; set; }
+        public double tri_isenti { get; set; }
+        public double tri_outrai { get; set; }
+        public string tri_obs1 { get; set; }
+        public string tri_obs2 { get; set; }
+        public string tri_period { get; set; }
+        public string tri_prazo { get; set; }
+        public string tri_pis { get; set; }
+        public string tri_cofins { get; set; }
+        public string tri_csoc { get; set; }
+        public string tri_ir { get; set; }
+        public string tri_issqn { get; set; }
+        public string tri_cae { get; set; }
+        public double tri_pcissq { get; set; }
+        public string tri_irr { get; set; }
+        public string tri_custo { get; set; }
+        public string tri_isimp { get; set; }
+        public double tri_hist { get; set; }
+        public double tri_debito { get; set; }
+        public double tri_credito { get; set; }
+        public string tri_histn { get; set; }
+        public double tri_hiscn { get; set; }
+        public double tri_vlrdes { get; set; }
+        public string tri_strib { get; set; }
+        public string tri_nsecf { get; set; }
+        public double tri_noecf { get; set; }
+        public string tri_mdecf { get; set; }
+        public double tri_cvicms { get; set; }
+        public double tri_tipolc { get; set; }
+        public string tri_tbecf { get; set; }
+        public double tri_basest { get; set; }
+        public double tri_icmst { get; set; }
+        public string tri_frural { get; set; }
+        public double tri_pcrura { get; set; }
+        public string tri_sticms { get; set; }
+        public string tri_stipi { get; set; }
+        public string tri_stpis { get; set; }
+        public double tri_bspis { get; set; }
+        public double tri_alpis { get; set; }
+        public string tri_stcof { get; set; }
+        public double tri_bscof { get; set; }
+        public double tri_alcof { get; set; }
+        public double tri_vlrtot { get; set; }
+        public double tri_bssimp { get; set; }
+        public double tri_icmsim { get; set; }
+        public double tri_modbc { get; set; }
+        public string tri_spisef { get; set; }
+        public string tri_scofef { get; set; }
+        public string tri_usada { get; set; }
+        public double tri_icmecf { get; set; }
+        public string tri_rcof { get; set; }
+    }
+}

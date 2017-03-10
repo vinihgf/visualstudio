@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIRETIVA", "DIRETIVA\DIRETIVA.csproj", "{EA6AABE6-91C9-47ED-99D4-742CAA83B7ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLASSES", "CLASSES\CLASSES.csproj", "{BE7F8E1D-DFB4-4E32-9188-0C417086D3E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA6AABE6-91C9-47ED-99D4-742CAA83B7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA6AABE6-91C9-47ED-99D4-742CAA83B7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6AABE6-91C9-47ED-99D4-742CAA83B7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7F8E1D-DFB4-4E32-9188-0C417086D3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7F8E1D-DFB4-4E32-9188-0C417086D3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7F8E1D-DFB4-4E32-9188-0C417086D3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7F8E1D-DFB4-4E32-9188-0C417086D3E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

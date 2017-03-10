@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE7F8E1D-DFB4-4E32-9188-0C417086D3E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLASSES</RootNamespace>
+    <AssemblyName>CLASSES</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CL_AvaliacaoVeiculo.cs" />
+    <Compile Include="CL_Bancos.cs" />
+    <Compile Include="CL_Ccusto.cs" />
+    <Compile Include="CL_CicloProducao.cs" />
+    <Compile Include="CL_Clasite.cs" />
+    <Compile Include="CL_ComlMarca.cs" />
+    <Compile Include="CL_ComlModelo.cs" />
+    <Compile Include="CL_Composic.cs" />
+    <Compile Include="CL_Compra.cs" />
+    <Compile Include="CL_Conctb.cs" />
+    <Compile Include="CL_Condic.cs" />
+    <Compile Include="CL_Convenio.cs" />
+    <Compile Include="CL_Despesas.cs" />
+    <Compile Include="CL_Duprec.cs" />
+    <Compile Include="CL_Empresa.cs" />
+    <Compile Include="CL_Entrega.cs" />
+    <Compile Include="CL_Equipamento.cs" />
+    <Compile Include="CL_EsqueciSenha.cs" />
+    <Compile Include="CL_Est.cs" />
+    <Compile Include="CL_Grupo.cs" />
+    <Compile Include="CL_Hist.cs" />
+    <Compile Include="CL_Histnf.cs" />
+    <Compile Include="CL_Landesp.cs" />
+    <Compile Include="CL_Lavoura.cs" />
+    <Compile Include="CL_Locacao.cs" />
+    <Compile Include="CL_Login.cs" />
+    <Compile Include="CL_LogMecanic.cs" />
+    <Compile Include="CL_Maquinario.cs" />
+    <Compile Include="CL_Mecanico.cs" />
+    <Compile Include="CL_Movdia.cs" />
+    <Compile Include="CL_Movduprec.cs" />
+    <Compile Include="CL_Movest.cs" />
+    <Compile Include="CL_MovProposta.cs" />
+    <Compile Include="CL_OS.cs" />
+    <Compile Include="CL_Oserv.cs" />
+    <Compile Include="CL_Partcomplende.cs" />
+    <Compile Include="CL_Particip.cs" />
+    <Compile Include="CL_Pedido.cs" />
+    <Compile Include="CL_Pedidos.cs" />
+    <Compile Include="CL_Pluviometro.cs" />
+    <Compile Include="CL_Proposta.cs" />
+    <Compile Include="CL_ReciboDupl.cs" />
+    <Compile Include="CL_RelOsCli.cs" />
+    <Compile Include="CL_Requis.cs" />
+    <Compile Include="CL_RotaCidade.cs" />
+    <Compile Include="CL_SincrEntrega.cs" />
+    <Compile Include="CL_SincrOserv.cs" />
+    <Compile Include="CL_SincrPed.cs" />
+    <Compile Include="CL_SincrVisita.cs" />
+    <Compile Include="CL_Sinistro.cs" />
+    <Compile Include="CL_Sittitulo.cs" />
+    <Compile Include="CL_Stribest.cs" />
+    <Compile Include="CL_TipoMov.cs" />
+    <Compile Include="CL_Tribut.cs" />
+    <Compile Include="CL_Unmed.cs" />
+    <Compile Include="CL_Usudac.cs" />
+    <Compile Include="CL_Veiculos.cs" />
+    <Compile Include="CL_Visita.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REL_Contrato.cs" />
+    <Compile Include="REL_encerraRequis.cs" />
+    <Compile Include="REL_OS7.cs" />
+    <Compile Include="REL_Patrimon.cs" />
+    <Compile Include="REL_Protocolo.cs" />
+    <Compile Include="REL_Sinistro.cs" />
+    <Compile Include="REL_Visita.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
