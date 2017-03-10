@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA823757-17B8-4BAD-B7B0-F97571A88259}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NEGOCIO</RootNamespace>
+    <AssemblyName>NEGOCIO</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NG_AvaliacaoVeiculo.cs" />
+    <Compile Include="NG_Bancos.cs" />
+    <Compile Include="NG_Cadmun.cs" />
+    <Compile Include="NG_Ccusto.cs" />
+    <Compile Include="NG_CicloProducao.cs" />
+    <Compile Include="NG_Clasite.cs" />
+    <Compile Include="NG_ComlMarca.cs" />
+    <Compile Include="NG_ComlModelo.cs" />
+    <Compile Include="NG_Composic.cs" />
+    <Compile Include="NG_Conctb.cs" />
+    <Compile Include="NG_Condic.cs" />
+    <Compile Include="NG_Convenio.cs" />
+    <Compile Include="NG_Despesas.cs" />
+    <Compile Include="NG_Duprec.cs" />
+    <Compile Include="NG_Empresa.cs" />
+    <Compile Include="NG_Entrega.cs" />
+    <Compile Include="NG_Equipamento.cs" />
+    <Compile Include="NG_Est.cs" />
+    <Compile Include="NG_Funcoes.cs" />
+    <Compile Include="NG_Grupo.cs" />
+    <Compile Include="NG_Hist.cs" />
+    <Compile Include="NG_Histnf.cs" />
+    <Compile Include="NG_Landesp.cs" />
+    <Compile Include="NG_Lavoura.cs" />
+    <Compile Include="NG_Locacao.cs" />
+    <Compile Include="NG_Login.cs" />
+    <Compile Include="NG_LogMecanic.cs" />
+    <Compile Include="NG_Maquinario.cs" />
+    <Compile Include="NG_Mecanico.cs" />
+    <Compile Include="NG_Movdia.cs" />
+    <Compile Include="NG_Movduprec.cs" />
+    <Compile Include="NG_Movest.cs" />
+    <Compile Include="NG_MovProposta.cs" />
+    <Compile Include="NG_OS.cs" />
+    <Compile Include="NG_OServ.cs" />
+    <Compile Include="NG_Partcomplende.cs" />
+    <Compile Include="NG_Particip.cs" />
+    <Compile Include="NG_Pedido.cs" />
+    <Compile Include="NG_Pedidos.cs" />
+    <Compile Include="NG_Pluviometro.cs" />
+    <Compile Include="NG_Proposta.cs" />
+    <Compile Include="NG_Relatorios.cs" />
+    <Compile Include="NG_Requis.cs" />
+    <Compile Include="NG_RotaCidade.cs" />
+    <Compile Include="NG_Sinistro.cs" />
+    <Compile Include="NG_Sittitulo.cs" />
+    <Compile Include="NG_Stribest.cs" />
+    <Compile Include="NG_TipoMov.cs" />
+    <Compile Include="NG_Tribut.cs" />
+    <Compile Include="NG_Umov.cs" />
+    <Compile Include="NG_Unmed.cs" />
+    <Compile Include="NG_Usudac.cs" />
+    <Compile Include="NG_Veiculos.cs" />
+    <Compile Include="NG_Visita.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87F4B086-BF22-46A6-AC3B-441F276C9B2A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BANCO</RootNamespace>
+    <AssemblyName>BANCO</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexao.cs" />
+    <Compile Include="DB_AvaliacaoVeiculo.cs" />
+    <Compile Include="DB_Bancos.cs" />
+    <Compile Include="DB_Cadmun.cs" />
+    <Compile Include="DB_Ccusto.cs" />
+    <Compile Include="DB_CicloProducao.cs" />
+    <Compile Include="DB_Clasite.cs" />
+    <Compile Include="DB_ComlMarca.cs" />
+    <Compile Include="DB_ComlModelo.cs" />
+    <Compile Include="DB_Composic.cs" />
+    <Compile Include="DB_Conctb.cs" />
+    <Compile Include="DB_Condic.cs" />
+    <Compile Include="DB_Convenio.cs" />
+    <Compile Include="DB_Despesas.cs" />
+    <Compile Include="DB_Duprec.cs" />
+    <Compile Include="DB_Empresa.cs" />
+    <Compile Include="DB_Entrega.cs" />
+    <Compile Include="DB_Equipamento.cs" />
+    <Compile Include="DB_Est.cs" />
+    <Compile Include="DB_Funcoes.cs" />
+    <Compile Include="DB_Grupo.cs" />
+    <Compile Include="DB_Hist.cs" />
+    <Compile Include="DB_Histnf.cs" />
+    <Compile Include="DB_Landesp.cs" />
+    <Compile Include="DB_Lavoura.cs" />
+    <Compile Include="DB_Locacao.cs" />
+    <Compile Include="DB_Login.cs" />
+    <Compile Include="DB_LogMecanic.cs" />
+    <Compile Include="DB_Maquinario.cs" />
+    <Compile Include="DB_Mecanico.cs" />
+    <Compile Include="DB_Movdia.cs" />
+    <Compile Include="DB_Movduprec.cs" />
+    <Compile Include="DB_Movest.cs" />
+    <Compile Include="DB_MovProposta.cs" />
+    <Compile Include="DB_OS.cs" />
+    <Compile Include="DB_OServ.cs" />
+    <Compile Include="DB_Partcomplende.cs" />
+    <Compile Include="DB_Particip.cs" />
+    <Compile Include="DB_Pedido.cs" />
+    <Compile Include="DB_Pedidos.cs" />
+    <Compile Include="DB_Pluviometro.cs" />
+    <Compile Include="DB_Proposta.cs" />
+    <Compile Include="DB_Relatorios.cs" />
+    <Compile Include="DB_Requis.cs" />
+    <Compile Include="DB_RotaCidade.cs" />
+    <Compile Include="DB_Sinistro.cs" />
+    <Compile Include="DB_Sittitulo.cs" />
+    <Compile Include="DB_Stribest.cs" />
+    <Compile Include="DB_TipoMov.cs" />
+    <Compile Include="DB_Tribut.cs" />
+    <Compile Include="DB_Umov.cs" />
+    <Compile Include="DB_Unmed.cs" />
+    <Compile Include="DB_Usudac.cs" />
+    <Compile Include="DB_Veiculos.cs" />
+    <Compile Include="DB_Visita.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
